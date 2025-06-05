@@ -109,5 +109,5 @@ So far, each new reading (x, y, z) is:
 #### Results
 This pipeline has been tested with an Android simulator but no real phone. It needs to be tested while users move their heads to see if the neck posture detection would be correct.
 
-## Acknowledgement 
+## Acknowledgements 
 Thank you to the University of Washington UbiComp Lab and my supervisor Zhihan Zhang. 

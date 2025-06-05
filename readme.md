@@ -61,6 +61,7 @@ With these landmarks, we average the left-shoulder and right-shoulder coordinate
 
 
 The neck vector is defined as:
+
 \[
   \mathrm{neck\_vector}
   = 

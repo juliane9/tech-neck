@@ -33,7 +33,7 @@ Using these four points, we compute three key metrics:
 ```math
   \theta_{\text{neck}}
   \;=\;
-  \frac{\pi}{180}\,\atan2\!\Bigl(
+  \frac{\pi}{180}\,\arctan2\!\Bigl(
     y_{L_{\text{ear}}} - y_{L_{\text{shoulder}}},\;
     x_{L_{\text{ear}}} - x_{L_{\text{shoulder}}}
   \Bigr)\,.

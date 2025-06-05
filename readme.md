@@ -43,7 +43,7 @@ Using these four points, we compute three key metrics:
 ```math
 \theta_{\text{torso}}
 \;=\;
-\frac{\pi}{180}\,\atan2\bigl(
+\frac{\pi}{180}\,\arctan2\bigl(
 \,y_{L_{\text{shoulder}}} - y_{L_{\text{hip}}},\;
 x_{L_{\text{shoulder}}} - x_{L_{\text{hip}}}
 \bigr).

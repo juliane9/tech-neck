@@ -1,5 +1,5 @@
 # Tech Neck Project
-Detect and correct “tech-neck” using IMU data or webcam video
+Detect and correct “tech-neck” using IMU data or webcam video.
 
 ## Overall Goal
 Automatically detect when a person’s head/neck is tilted downward (i.e. “tech-neck” posture) using only a smartphone’s built-in sensors or a standard webcam, so that end users can be alerted before strain occurs.

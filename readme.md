@@ -40,14 +40,14 @@ Using these four points, we compute three key metrics:
 ```
 
 - Torso inclination: we form a vector from the left hip to the left shoulder and compute its angle
-$$
+```math
 \theta_{\text{torso}}
 \;=\;
 \frac{\pi}{180}\,\atan2\bigl(
 \,y_{L_{\text{shoulder}}} - y_{L_{\text{hip}}},\;
 x_{L_{\text{shoulder}}} - x_{L_{\text{hip}}}
 \bigr).
-$$
+```
 
 
 
@@ -62,7 +62,7 @@ With these landmarks, we average the left-shoulder and right-shoulder coordinate
 
 The neck vector is defined as:
 
-\[
+```math
   \mathrm{neck\_vector}
   = 
   \bigl(x_{\text{nose}},\,y_{\text{nose}}\bigr)
@@ -71,7 +71,7 @@ The neck vector is defined as:
     \tfrac{x_{L_\text{shoulder}} + x_{R_\text{shoulder}}}{2},\;
     \tfrac{y_{L_\text{shoulder}} + y_{R_\text{shoulder}}}{2}
   \bigr).
-\]
+```
 This 2D vector in normalized image space points from the shoulder midpoint to the nose.
 atan2(dy, dx) then yields a signed angle (−180° to +180°) between the neck vector and the horizontal “right” direction.
 We can then create a threshold for this angle and alerts the user when the angle becomes too big (over 30° for example).

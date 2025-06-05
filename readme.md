@@ -1,7 +1,7 @@
 # Tech Neck Project
 Detect and correct “tech-neck” using IMU data or webcam video
 
-## 1. Overall Goal
+## Overall Goal
 Automatically detect when a person’s head/neck is tilted downward (i.e. “tech-neck” posture) using only a smartphone’s built-in sensors or a standard webcam, so that end users can be alerted before strain occurs.
 Tech-neck, or excessive forward tilting of the head while looking at screens (smartphones, laptops, etc.), has become a widespread ergonomic issue. Prolonged neck flexion can lead to muscle strain, headaches, and long-term spinal misalignment. This project explores two complementary approaches to detect and potentially alert the user when they adopt a harmful neck posture to encourage healthier posture and help prevent strain before it becomes a problem.
 

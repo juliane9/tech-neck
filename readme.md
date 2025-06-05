@@ -30,14 +30,14 @@ Using these four points, we compute three key metrics:
 - Shoulder alignment (offset): we measure the Euclidean distance between the left and right shoulders to check if they remain roughly level
 
 - Neck inclination: we form a 2D vector from the left shoulder to the left ear (in pixel space) and compute its angle relative to the horizontal axis
-  $$
+```math
   \theta_{\text{neck}}
   \;=\;
   \frac{\pi}{180}\,\atan2\!\Bigl(
     y_{L_{\text{ear}}} - y_{L_{\text{shoulder}}},\;
     x_{L_{\text{ear}}} - x_{L_{\text{shoulder}}}
   \Bigr)\,.
-  $$
+```
 
 - Torso inclination: we form a vector from the left hip to the left shoulder and compute its angle
 $$
